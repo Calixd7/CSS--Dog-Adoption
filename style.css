@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    font-family: "Open-sans", Oswald;
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: #FFFFFF;
+    border: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+h2 {
+    padding: 20px;
+}
+.opening{
+    padding-left: 20px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    padding: 10px;
+}
+.dogimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.dogname {
+    font-weight: bolder;
+    font-size: 21px;
+}
+.dogtraits {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+button {
+    padding: 3px;
+    margin: 3px;
+    background-color: #89DEEF;
+    border-color: #89DEEF;
+    border-radius: 6px;
+    
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #a6a9f0;
+}
+.bottomcontainer {
+    position: relative;
+    width: 33.3%;
+} 
+.containerimage {  
+    opacity: .4;
+    height: 100%;
+    object-fit: cover;
+}
+.containertext {
+    position: absolute;
+    font-family: "Open-sans", Oswald;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    z-index: 999;
+}
