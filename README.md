@@ -48,3 +48,4 @@ The first major challenge is next: how to center them vertically? There's multip
 Next, add a background color (#A6A9F0). If you can do this, you're almost done!
 
 The last and hardest challenge is getting the images to appear with the bluish filter on them. The `background` property will make this work, and you [can read how to add a color overly to an image at CSS-Tricks](https://css-tricks.com/tinted-images-multiple-backgrounds/).
+# CSS--Dog-Adoption
